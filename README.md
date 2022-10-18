@@ -9,6 +9,7 @@
 ![image](https://user-images.githubusercontent.com/79260866/196335494-7d7133b8-852b-4d28-a430-31001e6a03db.png)
 
 說出用手控制的指令，可以切換出用手勢辨識去控制車。 
+
 ![image](https://user-images.githubusercontent.com/79260866/196335511-d9943781-45a4-4e3a-97ea-b2dce2b4cc24.png)
 
 藉由語音去控制車子並用語音切換 Camera 去辨識手勢來控制自走車，語音內容包含口述的前進、往後、左轉、右轉、加速和開關燈，並配合著語音提示，然後也可切換成手勢辨識，不同手勢對應不同功能，一樣可以進行前進、後退、左轉、右轉以及停的功能。 
