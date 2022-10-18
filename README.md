@@ -7,6 +7,7 @@
 先跑語音辨識車子的部分，對麥克風說往前、往後、左轉、右轉、加速、減速等指令，自走車做相應的動作。   
 
 ![image](https://user-images.githubusercontent.com/79260866/196335494-7d7133b8-852b-4d28-a430-31001e6a03db.png)
+![擷取](https://user-images.githubusercontent.com/79260866/196337924-a3b16a7b-cdbc-4a5e-891c-19f0dcdf01d2.PNG)
 
 說出用手控制的指令，可以切換出用手勢辨識去控制車。 
 
