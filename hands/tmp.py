@@ -8,10 +8,10 @@ import time
 import readchar
 #import pwm_motor as motor
 
-Motor_R1_Pin = 16
-Motor_R2_Pin = 18
-Motor_L1_Pin = 11
-Motor_L2_Pin = 13
+Motor_R1_Pin = 16 #green gpio23
+Motor_R2_Pin = 18 #yellow gpio24
+Motor_L1_Pin = 11 #purple gpio17
+Motor_L2_Pin = 13 #orange gpio27
 t = 0.5
 
 dc=70 #
