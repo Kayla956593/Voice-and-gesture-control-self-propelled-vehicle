@@ -39,6 +39,8 @@ def findpostion(frame1):
 
     return list            
 
+# Traverse each point in handsModule.HandLandmark,
+# which is the name of the key point of the hand.
 def findnameoflandmark(frame1):
      list=[]
      results = mod.process(cv2.cvtColor(frame1, cv2.COLOR_BGR2RGB))
