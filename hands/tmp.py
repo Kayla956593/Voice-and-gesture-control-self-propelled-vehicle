@@ -165,6 +165,7 @@ def gesture():
 while True:
    action = ""
    r=sr.Recognizer()
+   #4800: The number of audio samples captured from the microphone per second
    with sr.Microphone(device_index = 2, sample_rate = 48000) as source:
       print("Please wait. Calibrating microphone...")
       #listen for 1 seconds and create the ambient noise energy level
@@ -182,6 +183,7 @@ while True:
       if "手控" in action:
          print("用手控制")
          #time.sleep(0.5)
+         # Convert the specified text to Traditional Chinese (Taiwan) speech
          tts = gTTS(text='用手控制', lang='zh-TW')
          tts.save('handcontrol.mp3')
          os.system('omxplayer -o local -p handcontrol.mp3 > /dev/null 2>&1')
