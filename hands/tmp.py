@@ -6,7 +6,7 @@ import apa102
 import RPi.GPIO as GPIO
 import time
 import readchar
-#import pwm_motor as motor
+import pwm_motor as motor
 
 Motor_R1_Pin = 16 #green gpio23
 Motor_R2_Pin = 18 #yellow gpio24
